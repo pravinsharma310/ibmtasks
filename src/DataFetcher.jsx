@@ -20,7 +20,7 @@ const SimpleCarousel = () => {
     <div className="flex flex-col items-center justify-center w-full max-w-md mx-auto p-4">
       <div className="relative w-full h-64 flex items-center justify-center">
         <img
-          style={{ maxWidth: "500px", maxHeight: "300px" }}
+        style={{ maxWidth: "500px", maxHeight: "300px" }}
           src={imageData[currentIndex].download_url}
           alt={imageData[currentIndex].author}
           className="w-full h-full object-cover rounded-lg shadow-lg"
